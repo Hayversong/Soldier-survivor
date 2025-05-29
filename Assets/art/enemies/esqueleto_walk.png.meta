@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: 90463911901180043893be220607ac25
+guid: 0953a2b5a70f38e4ca49703272c366da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3224814550258930079
-    second: protra_idle_0
+      213: 7333857649720834214
+    second: esqueleto_walk_0
   - first:
-      213: 1885065102850572169
-    second: protra_idle_1
+      213: 1236213512783934825
+    second: esqueleto_walk_1
   - first:
-      213: 7664294473278872780
-    second: protra_idle_2
+      213: -384292884829744425
+    second: esqueleto_walk_2
   - first:
-      213: -1267699073823871486
-    second: protra_idle_3
+      213: -5895296581547480772
+    second: esqueleto_walk_3
+  - first:
+      213: -3365882834409778356
+    second: esqueleto_walk_4
+  - first:
+      213: -5872561656898724588
+    second: esqueleto_walk_5
+  - first:
+      213: -706472198456174469
+    second: esqueleto_walk_6
+  - first:
+      213: 9085234379996149575
+    second: esqueleto_walk_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protra_idle_0
+      name: esqueleto_walk_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 15
-        height: 17
+        x: 33
+        y: 32
+        width: 13
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 16e2e4990482f33d0800000000000000
-      internalID: -3224814550258930079
+      spriteID: 6a834ec0da817c560800000000000000
+      internalID: 7333857649720834214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protra_idle_1
+      name: esqueleto_walk_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 15
-        height: 17
+        x: 114
+        y: 32
+        width: 13
+        height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 98fb4e939b8192a10800000000000000
-      internalID: 1885065102850572169
+      spriteID: 9653600e3a9e72110800000000000000
+      internalID: 1236213512783934825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protra_idle_2
+      name: esqueleto_walk_2
       rect:
         serializedVersion: 2
-        x: 63
-        y: 0
-        width: 15
-        height: 17
+        x: 193
+        y: 32
+        width: 13
+        height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cccd6cd573b0d5a60800000000000000
-      internalID: 7664294473278872780
+      spriteID: 7d2530648a7baaaf0800000000000000
+      internalID: -384292884829744425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: protra_idle_3
+      name: esqueleto_walk_3
       rect:
         serializedVersion: 2
-        x: 95
-        y: 0
-        width: 15
-        height: 17
+        x: 274
+        y: 32
+        width: 11
+        height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +215,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20ee2aea86a386ee0800000000000000
-      internalID: -1267699073823871486
+      spriteID: c39a9436ef2bf2ea0800000000000000
+      internalID: -5895296581547480772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esqueleto_walk_4
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 32
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c439b63356bf941d0800000000000000
+      internalID: -3365882834409778356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esqueleto_walk_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 32
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dd8f68948708ea0800000000000000
+      internalID: -5872561656898724588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esqueleto_walk_6
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 32
+        width: 11
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78945f474b1236f0800000000000000
+      internalID: -706472198456174469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: esqueleto_walk_7
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 32
+        width: 11
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74736d0788c351e70800000000000000
+      internalID: 9085234379996149575
       vertices: []
       indices: 
       edges: []
@@ -213,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 7347ecbc48151b544a010e27b869a69c
+    spriteID: 0fb3c42daacb8854f948937dc454e0e0
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      protra_idle_0: -3224814550258930079
-      protra_idle_1: 1885065102850572169
-      protra_idle_2: 7664294473278872780
-      protra_idle_3: -1267699073823871486
+      esqueleto_walk_0: 7333857649720834214
+      esqueleto_walk_1: 1236213512783934825
+      esqueleto_walk_2: -384292884829744425
+      esqueleto_walk_3: -5895296581547480772
+      esqueleto_walk_4: -3365882834409778356
+      esqueleto_walk_5: -5872561656898724588
+      esqueleto_walk_6: -706472198456174469
+      esqueleto_walk_7: 9085234379996149575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 6f81df634e95e98488f06095080ec480
+guid: b48e6f21413f6294db01cb5287007a6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4569200126794389670
-    second: protra - Copia (2)_0
-  - first:
-      213: -2533687206374084243
-    second: protra - Copia (2)_1
-  - first:
-      213: 3802563691814684727
-    second: protra - Copia (2)_2
-  - first:
-      213: 3705666136414302942
-    second: protra - Copia (2)_3
+      213: 5726650533787054160
+    second: FX001_01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -62,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -81,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -122,89 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: protra - Copia (2)_0
+      name: FX001_01_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 17
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 10
+        y: 11
+        width: 12
+        height: 12
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a8df318e4f096f30800000000000000
-      internalID: 4569200126794389670
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protra - Copia (2)_1
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 0
-        width: 17
-        height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d61fe1ce8e886dcd0800000000000000
-      internalID: -2533687206374084243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protra - Copia (2)_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 17
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7388966e78b65c430800000000000000
-      internalID: 3802563691814684727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: protra - Copia (2)_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 17
-        height: 15
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed23b25b7bb2d6330800000000000000
-      internalID: 3705666136414302942
+      spriteID: 050bd23c156297f40800000000000000
+      internalID: 5726650533787054160
       vertices: []
       indices: 
       edges: []
@@ -213,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 706b51a5e4cc73f4396036cb290595ba
+    spriteID: 28a2813f852b12c40afc380fc554b0de
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      protra - Copia (2)_0: 4569200126794389670
-      protra - Copia (2)_1: -2533687206374084243
-      protra - Copia (2)_2: 3802563691814684727
-      protra - Copia (2)_3: 3705666136414302942
+      FX001_01_0: 5726650533787054160
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
