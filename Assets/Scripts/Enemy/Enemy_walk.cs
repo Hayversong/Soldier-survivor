@@ -11,25 +11,33 @@ public class Enemy_walk : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        //encara o player
-        if (PlayerController.Instance.transform.position.x > transform.position.x)
+        if (PlayerController.Instance.gameObject.activeSelf)
         {
-            spriteRenderer.flipX = false;
+            //encara o player
+            if (PlayerController.Instance.transform.position.x > transform.position.x)
+            {
+                spriteRenderer.flipX = false;
+            }
+            else
+            {
+                spriteRenderer.flipX = true;
+            }
+
+            //move em direção ao player
+            direction = (PlayerController.Instance.transform.position - transform.position).normalized;
+            rb.linearVelocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
         }
         else
         {
-            spriteRenderer.flipX = true;
+            rb.linearVelocity = Vector2.zero;
         }
-
-        //move em direção ao player
-        direction = (PlayerController.Instance.transform.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PlayerController.Instance.TakeDamage(1);
             Destroy(gameObject);
             Instantiate(destroyEffect, transform.position, transform.rotation);
         }

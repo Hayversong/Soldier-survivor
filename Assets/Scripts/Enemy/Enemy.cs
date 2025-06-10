@@ -7,28 +7,37 @@ public class Enemy : MonoBehaviour
     private Vector3 direction;
     [SerializeField] private float moveSpeed;
     [SerializeField] private GameObject destroyEffect;
-    
+
     // Update is called once per frame
     void FixedUpdate()
     {
-        //encara o player
-        if (PlayerController.Instance.transform.position.x > transform.position.x)
+        if (PlayerController.Instance.gameObject.activeSelf)
         {
-            spriteRenderer.flipX = true;
-        } else
-        {
-            spriteRenderer.flipX = false;
-        }
+            //encara o player
+            if (PlayerController.Instance.transform.position.x > transform.position.x)
+            {
+                spriteRenderer.flipX = true;
+            }
+            else
+            {
+                spriteRenderer.flipX = false;
+            }
 
-        //move em direção ao player
-        direction = (PlayerController.Instance.transform.position - transform.position).normalized;
-        rb.linearVelocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
+            //move em direção ao player
+            direction = (PlayerController.Instance.transform.position - transform.position).normalized;
+            rb.linearVelocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
+        }
+        else
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            PlayerController.Instance.TakeDamage(1);
             Destroy(gameObject);
             Instantiate(destroyEffect, transform.position, transform.rotation);
         }
