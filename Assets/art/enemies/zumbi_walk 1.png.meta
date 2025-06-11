@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 9601318f3e289a64a93f3cb1e87e7d75
+guid: 27e843fa38db60c47b9e81d3129d681f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9205107750740457585
-    second: zumbi_walk_0
+      213: -5356954379614595326
+    second: zumbi_walk 1_0
   - first:
-      213: 7045570030652776454
-    second: zumbi_walk_1
+      213: 5492319708393660437
+    second: zumbi_walk 1_1
   - first:
-      213: -4596676030186148416
-    second: zumbi_walk_2
+      213: 2715176402576728098
+    second: zumbi_walk 1_2
   - first:
-      213: -2034535522259702960
-    second: zumbi_walk_3
+      213: -3195257921212655755
+    second: zumbi_walk 1_3
   - first:
-      213: -6484653907855985281
-    second: zumbi_walk_4
+      213: 7956257798375130618
+    second: zumbi_walk 1_4
   - first:
-      213: -64359232784687140
-    second: zumbi_walk_5
+      213: 447250235628145568
+    second: zumbi_walk 1_5
   - first:
-      213: 55807038427357167
-    second: zumbi_walk_6
+      213: -986646122884329171
+    second: zumbi_walk 1_6
   - first:
-      213: -1072920104321804175
-    second: zumbi_walk_7
+      213: 7435137853021425200
+    second: zumbi_walk 1_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -134,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: zumbi_walk_0
+      name: zumbi_walk 1_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 18
+        x: 34
+        y: 17
         width: 13
-        height: 14
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -149,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17874128abc1fbf70800000000000000
-      internalID: 9205107750740457585
+      spriteID: 2075915cf5648a5b0800000000000000
+      internalID: -5356954379614595326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_1
+      name: zumbi_walk 1_1
       rect:
         serializedVersion: 2
-        x: 113
-        y: 18
+        x: 114
+        y: 17
         width: 13
-        height: 13
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 60062352d94e6c160800000000000000
-      internalID: 7045570030652776454
+      spriteID: 5106eabdca3a83c40800000000000000
+      internalID: 5492319708393660437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_2
+      name: zumbi_walk 1_2
       rect:
         serializedVersion: 2
-        x: 193
-        y: 18
+        x: 194
+        y: 17
         width: 13
-        height: 13
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cda33931835530c0800000000000000
-      internalID: -4596676030186148416
+      spriteID: 220eb127d8e3ea520800000000000000
+      internalID: 2715176402576728098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_3
+      name: zumbi_walk 1_3
       rect:
         serializedVersion: 2
         x: 274
-        y: 18
-        width: 11
-        height: 14
+        y: 17
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05bebc0d8b0e3c3e0800000000000000
-      internalID: -2034535522259702960
+      spriteID: 577dd5099d928a3d0800000000000000
+      internalID: -3195257921212655755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_4
+      name: zumbi_walk 1_4
       rect:
         serializedVersion: 2
         x: 354
-        y: 18
-        width: 11
-        height: 14
+        y: 17
+        width: 13
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7535e2c0a1e106a0800000000000000
-      internalID: -6484653907855985281
+      spriteID: af5c495405e4a6e60800000000000000
+      internalID: 7956257798375130618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_5
+      name: zumbi_walk 1_5
       rect:
         serializedVersion: 2
-        x: 434
-        y: 18
-        width: 11
-        height: 13
+        x: 433
+        y: 17
+        width: 15
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf1ad76e995b1ff0800000000000000
-      internalID: -64359232784687140
+      spriteID: 0ab435c38b3f43600800000000000000
+      internalID: 447250235628145568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_6
+      name: zumbi_walk 1_6
       rect:
         serializedVersion: 2
-        x: 514
-        y: 18
-        width: 11
-        height: 13
+        x: 513
+        y: 17
+        width: 15
+        height: 15
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +281,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fefdd6da43446c000800000000000000
-      internalID: 55807038427357167
+      spriteID: d219676249abe42f0800000000000000
+      internalID: -986646122884329171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: zumbi_walk_7
+      name: zumbi_walk 1_7
       rect:
         serializedVersion: 2
-        x: 594
-        y: 18
-        width: 11
-        height: 14
+        x: 593
+        y: 17
+        width: 15
+        height: 16
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 178168589d83c11f0800000000000000
-      internalID: -1072920104321804175
+      spriteID: 03e0769fb7aee2760800000000000000
+      internalID: 7435137853021425200
       vertices: []
       indices: 
       edges: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 170433264bd5ec0488b95d3eab2c3e15
+    spriteID: de764b84f6755c04daada1b15d9d541f
     internalID: 0
     vertices: []
     indices: 
@@ -323,14 +323,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      zumbi_walk_0: 9205107750740457585
-      zumbi_walk_1: 7045570030652776454
-      zumbi_walk_2: -4596676030186148416
-      zumbi_walk_3: -2034535522259702960
-      zumbi_walk_4: -6484653907855985281
-      zumbi_walk_5: -64359232784687140
-      zumbi_walk_6: 55807038427357167
-      zumbi_walk_7: -1072920104321804175
+      zumbi_walk 1_0: -5356954379614595326
+      zumbi_walk 1_1: 5492319708393660437
+      zumbi_walk 1_2: 2715176402576728098
+      zumbi_walk 1_3: -3195257921212655755
+      zumbi_walk 1_4: 7956257798375130618
+      zumbi_walk 1_5: 447250235628145568
+      zumbi_walk 1_6: -986646122884329171
+      zumbi_walk 1_7: 7435137853021425200
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

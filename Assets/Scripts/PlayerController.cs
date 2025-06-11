@@ -12,6 +12,10 @@ public class PlayerController : MonoBehaviour
     public float playerMaxVida;
     public float playerVida;
 
+    private bool imune;
+    [SerializeField] private float imuneDuration;
+    [SerializeField] private float imuneTimer;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -48,22 +52,36 @@ public class PlayerController : MonoBehaviour
         else {
             animator.SetBool("moving", true);
         }
+        if(imuneTimer > 0)
+        {
+            imuneTimer -= Time.deltaTime;
+        }
+        else
+        {
+            imune = false;
+        }
     }
 
     private void FixedUpdate()
     {
-        rb.linearVelocity = new Vector2(PlayerMoveDirection.x *
+        rb.linearVelocity = new Vector3(PlayerMoveDirection.x *
             moveSpeed, PlayerMoveDirection.y * moveSpeed);
     }
 
     public void TakeDamage(float damage)
     {
-        playerVida -= damage;
-        UIController.Instance.UpdateHealthSlider();
-        if (playerVida <= 0)
+        if (!imune)
         {
-            gameObject.SetActive(false);
-            GameManager.Instance.GameOver();
+            imune = true;
+            imuneTimer = imuneDuration;
+            playerVida -= damage;
+            UIController.Instance.UpdateHealthSlider();
+            if (playerVida <= 0)
+            {
+                gameObject.SetActive(false);
+                GameManager.Instance.GameOver();
+            }
         }
+        
     }
 }

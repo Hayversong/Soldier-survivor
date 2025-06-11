@@ -137,9 +137,9 @@ TextureImporter:
       name: esqueleto_walk_0
       rect:
         serializedVersion: 2
-        x: 33
+        x: 35
         y: 32
-        width: 13
+        width: 11
         height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -159,9 +159,9 @@ TextureImporter:
       name: esqueleto_walk_1
       rect:
         serializedVersion: 2
-        x: 114
+        x: 115
         y: 32
-        width: 13
+        width: 11
         height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -181,9 +181,9 @@ TextureImporter:
       name: esqueleto_walk_2
       rect:
         serializedVersion: 2
-        x: 193
+        x: 195
         y: 32
-        width: 13
+        width: 11
         height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -203,7 +203,7 @@ TextureImporter:
       name: esqueleto_walk_3
       rect:
         serializedVersion: 2
-        x: 274
+        x: 275
         y: 32
         width: 11
         height: 14
@@ -225,7 +225,7 @@ TextureImporter:
       name: esqueleto_walk_4
       rect:
         serializedVersion: 2
-        x: 354
+        x: 355
         y: 32
         width: 11
         height: 14
@@ -249,7 +249,7 @@ TextureImporter:
         serializedVersion: 2
         x: 434
         y: 32
-        width: 11
+        width: 13
         height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -271,7 +271,7 @@ TextureImporter:
         serializedVersion: 2
         x: 514
         y: 32
-        width: 11
+        width: 13
         height: 13
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -293,7 +293,7 @@ TextureImporter:
         serializedVersion: 2
         x: 594
         y: 32
-        width: 11
+        width: 13
         height: 14
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 0fb3c42daacb8854f948937dc454e0e0
+    spriteID: baafba22cba341c4b91cd1cc38d44e2a
     internalID: 0
     vertices: []
     indices: 
