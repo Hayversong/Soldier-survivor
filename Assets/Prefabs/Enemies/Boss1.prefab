@@ -131,6 +131,8 @@ MonoBehaviour:
   moveSpeed: 1
   damage: 5
   health: 50
+  experienceToGive: 20
+  pushTime: 0.1
   destroyEffect: {fileID: 5087937860054808615, guid: 4088e61f798413e4ea6f7ab89dd7e049, type: 3}
 --- !u!50 &5779651909072829923
 Rigidbody2D:

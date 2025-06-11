@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4226644916085922796}
   - component: {fileID: 7895438937899123795}
-  - component: {fileID: 3307965244141466358}
   - component: {fileID: 455588588545556141}
+  - component: {fileID: 3307965244141466358}
   - component: {fileID: 2376767205504867205}
   - component: {fileID: 6282883785598212638}
   m_Layer: 7
@@ -92,6 +92,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!114 &455588588545556141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514715439719465225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9fd32cefb7a68f4c853b56b8d210f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteRenderer: {fileID: 7895438937899123795}
+  rb: {fileID: 3307965244141466358}
+  moveSpeed: 1.5
+  damage: 1
+  health: 10
+  experienceToGive: 2
+  pushTime: 0.5
+  destroyEffect: {fileID: 5087937860054808615, guid: 4088e61f798413e4ea6f7ab89dd7e049, type: 3}
 --- !u!50 &3307965244141466358
 Rigidbody2D:
   serializedVersion: 5
@@ -119,24 +139,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &455588588545556141
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 514715439719465225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9fd32cefb7a68f4c853b56b8d210f97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 7895438937899123795}
-  rb: {fileID: 3307965244141466358}
-  moveSpeed: 1.5
-  damage: 1
-  health: 15
-  destroyEffect: {fileID: 5087937860054808615, guid: 4088e61f798413e4ea6f7ab89dd7e049, type: 3}
 --- !u!70 &2376767205504867205
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

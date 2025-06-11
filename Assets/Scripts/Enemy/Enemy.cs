@@ -8,6 +8,10 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float moveSpeed;
     [SerializeField] private float damage;
     [SerializeField] private float health;
+    [SerializeField] private int experienceToGive;
+    [SerializeField] private float pushTime;
+
+    private float pushCounter;
 
     [SerializeField] private GameObject destroyEffect;
 
@@ -24,6 +28,19 @@ public class Enemy : MonoBehaviour
             else
             {
                 spriteRenderer.flipX = false;
+            }
+            //empurra
+            if(pushCounter > 0)
+            {
+                pushCounter -= Time.deltaTime;
+                if(moveSpeed > 0)
+                {
+                    moveSpeed = -moveSpeed;
+                }
+                if(pushCounter <= 0)
+                {
+                    moveSpeed = Mathf.Abs(moveSpeed);
+                }
             }
 
             //move em direção ao player
@@ -47,10 +64,13 @@ public class Enemy : MonoBehaviour
     public void TakeDamage(float damage)
     {
         health -= damage;
+        DamageNumberController.Instance.CreateNumber(damage, transform.position);
+        pushCounter = pushTime;
         if (health <= 0)
         {
             Destroy(gameObject);
             Instantiate(destroyEffect, transform.position, transform.rotation);
+            PlayerController.Instance.GetExperience(experienceToGive);
         }
     }
 }
