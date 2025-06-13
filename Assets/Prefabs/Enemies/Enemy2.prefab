@@ -106,8 +106,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 7895438937899123795}
   rb: {fileID: 3307965244141466358}
-  moveSpeed: 1.5
-  damage: 1
+  moveSpeed: 1.2
+  damage: 2
   health: 10
   experienceToGive: 2
   pushTime: 0.5

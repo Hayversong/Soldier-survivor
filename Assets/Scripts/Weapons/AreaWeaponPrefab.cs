@@ -12,9 +12,10 @@ public class AreaWeaponPrefab : MonoBehaviour
     {
         weapon = GameObject.Find("Area Weapon").GetComponent<AreaWeapon>();
         //Destroy(gameObject, weapon.duration);
-        targetSize = Vector3.one * weapon.range;
+        targetSize = Vector3.one * weapon.stats[weapon.weaponLevel].range;
         transform.localScale = Vector3.zero;
-        timer = weapon.duration;
+        timer = weapon.stats[weapon.weaponLevel].duration;
+        AudioController.Instance.PlaySound(AudioController.Instance.areaWeaponSpawn);
     }
 
     void Update()
@@ -26,19 +27,20 @@ public class AreaWeaponPrefab : MonoBehaviour
         if(timer <= 0)
         {
             targetSize = Vector3.zero;
-            if(transform.localScale.x == 0f)
+            if (transform.localScale.x == 0f)
             {
                 Destroy(gameObject);
+                AudioController.Instance.PlaySound(AudioController.Instance.areaWeaponDespawn);
             }
         }
         //dano periódico aos inimigos no range
         counter -= Time.deltaTime;
         if(counter <= 0)
         {
-            counter = weapon.speed;
+            counter = weapon.stats[weapon.weaponLevel].speed;
             for(int i = 0; i < enemiesInRange.Count; i++)
             {
-                enemiesInRange[i].TakeDamage(weapon.damage);
+                enemiesInRange[i].TakeDamage(weapon.stats[weapon.weaponLevel].damage);
             }
         }
     }

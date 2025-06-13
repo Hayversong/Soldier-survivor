@@ -14,9 +14,11 @@ public class PlayerController : MonoBehaviour
     public float playerVida;
 
     public int experience;
-    public int nivel;
+    public int nivelAtual;
     public int nivelMax;
-    public List<int> playerLevels; 
+    public List<int> playerLevels;
+
+    public Weapon activeWeapon;
 
     private bool imune;
     [SerializeField] private float imuneDuration;
@@ -35,7 +37,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    private void Start()
+    void Start()
     {
         for(int i = playerLevels.Count; i < nivelMax; i++)
         {
@@ -99,5 +101,18 @@ public class PlayerController : MonoBehaviour
     {
         experience += experienceToGet;
         UIController.Instance.UpdateExperienceSlider();
+        if(experience >= playerLevels[nivelAtual - 1])
+        {
+            LevelUp();
+        }
+    }
+
+    public void LevelUp()
+    {
+        experience -= playerLevels[nivelAtual - 1];
+        nivelAtual++;
+        UIController.Instance.UpdateExperienceSlider();
+        UIController.Instance.levelUpButtons[0].ActivateButton(activeWeapon);
+        UIController.Instance.LevelUpPanelOpen();
     }
 }
